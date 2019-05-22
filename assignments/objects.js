@@ -38,6 +38,7 @@ const intern = [
     gender: "F",
     multiplyNums: function(a, b){
       console.log (a * b);
+      
     },
   }, ];
 
