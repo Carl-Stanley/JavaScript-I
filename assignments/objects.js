@@ -19,6 +19,42 @@ const example = {
 
 // Write your intern objects here:
 
+const intern = [
+  { id: 1, name: "Mitzi", email: "mmelloy0@psu.edu", gender: "F" },
+  {
+    id: 2,
+    name: "Kennan",
+    email: "kdiben1@tinypic.com",
+    gender: "M",
+    speak: function () {
+      console.log(`Hello my name is ${this.name}`);
+    },},
+  { id: 3, name: "Keven", email: "kmummery2@wikimedia.org", gender: "M" },
+  { id: 4, name: "Gannie", email: "gmartinson3@illinois.edu", gender: "M" },
+  {
+    id: 5,
+    name: "Antonietta",
+    email: "adaine5@samsung.com",
+    gender: "F",
+    multiplyNums: function(a, b){
+      console.log (a * b);
+      
+    },
+  }, ];
+
+
+const Mitiz = intern[0];
+const Kennan = intern[1];
+const Keven = intern[2];
+const Gannie = intern[3];
+const Antonietta = intern[4];
+console.log(Mitiz.name);
+console.log(Kennan.id);
+console.log(Keven.email);
+console.log(Gannie.name);
+console.log(Antonietta.gender);
+Kennan.speak();
+Antonietta.multiplyNums(3,4);
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
